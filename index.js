@@ -5,7 +5,7 @@ const { Octokit } = require("@octokit/rest");
 const {
   GIST_ID: gistId,
   GH_TOKEN: githubToken,
-  WAKATIME_API_KEY: wakatimeApiKey
+  WAKATIME_API_KEY: wakatimeApiKey,
 } = process.env;
 
 const wakatime = new WakaTimeClient(wakatimeApiKey);
